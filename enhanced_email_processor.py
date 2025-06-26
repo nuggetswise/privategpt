@@ -12,7 +12,7 @@ import email.policy
 import requests
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Any
 import logging
 from email_validator import validate_email, EmailNotValidError
 import argparse
